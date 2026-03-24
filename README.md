@@ -1,45 +1,97 @@
-# Sales Data Analysis & Prediction
+# 📊 Retail Sales Forecasting & Business Insights
 
-## 📌 Problem Statement
-Sales forecasting is crucial for business planning and decision-making.
-This project focuses on analyzing historical sales data to identify patterns,
-trends, and key factors affecting sales, and to predict future sales using
-machine learning techniques.
+## 📌 Project Overview
+This project focuses on analyzing historical retail sales data to uncover patterns, generate business insights, and predict future sales using Machine Learning and Time Series techniques.
+
+---
+
+## 🎯 Objectives
+- Perform Exploratory Data Analysis (EDA)
+- Identify trends and patterns in sales data
+- Build Machine Learning models for prediction
+- Apply Time Series forecasting (ARIMA)
+- Generate actionable business insights
+
+---
 
 ## 📂 Dataset
-- Historical sales dataset (CSV format)
-- Includes sales amount, time period, and product/customer-related features
+- Superstore Sales Dataset
+- Contains:
+  - Order Date
+  - Sales
+  - Category
+  - Region
+  - Profit
 
-## 🛠 Tools & Technologies
+---
+
+## 🛠️ Technologies Used
 - Python
-- NumPy
 - Pandas
+- NumPy
 - Matplotlib
 - Seaborn
 - Scikit-learn
+- Statsmodels
 
-## 🔍 Approach
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Trend and pattern analysis
-- Feature selection
-- Training regression models for sales prediction
+---
 
-## 🤖 Models Used
+## 🔍 Project Workflow
+
+### 1. Data Cleaning
+- Handled missing values
+- Converted date columns
+
+### 2. Exploratory Data Analysis
+- Sales trends over time
+- Category-wise performance
+- Region-wise analysis
+
+### 3. Feature Engineering
+- Extracted year, month, and day
+- Encoded categorical variables
+
+### 4. Machine Learning Models
 - Linear Regression
-- Decision Tree Regressor
 - Random Forest Regressor
 
-## 📊 Evaluation Metrics
+### 5. Time Series Forecasting
+- ARIMA model used for forecasting future sales
+
+### 6. Model Evaluation
 - Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
 - R² Score
 
-## ✅ Results
-The model successfully predicts future sales trends and provides insights
-into factors that influence sales performance.
+---
+
+## 📊 Key Insights
+- Sales peak during year-end months
+- Technology category generates highest revenue
+- Some regions underperform consistently
+- Seasonal trends are clearly visible
+
+---
+
+## 🔮 Results
+- Random Forest performed well for pattern-based prediction
+- ARIMA effectively captured time-based trends
+- Future sales trends were successfully forecasted
+
+---
 
 ## 🚀 How to Run
+
 ```bash
 pip install -r requirements.txt
-python main.py
+jupyter notebook
+```
+
+---
+
+## 💡 Conclusion
+Combining Machine Learning and Time Series techniques provides better understanding and prediction of sales trends, helping businesses make data-driven decisions.
+
+---
+
+## 👨‍💻 Author
+Sumit Joshi
